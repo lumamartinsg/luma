@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;  
+ 
+   }
+
+.hero-content{
+    font-family: Helvetica, sans-serif;
+    background: url("blackmirrorslogan.png") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btnM{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 900px;
+    transition: .2s ease;
+}
+
+.btnM:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnQ{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+
+.btnQ:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnC{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 255px;
+    transition: .2s ease;
+}
+
+.btnC:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnS{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 465px;
+    transition: .2s ease;
+
+}
+.btnS:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnF{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 680px;
+    transition: .2s ease;
+}
+
+.btnF:hover{
+    background: rgb(172, 145, 172);
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(blackmirrorslogan.png);
+
+}
+
+.contato h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgba(77, 196, 226, 0.8);
+}
+.content{
+    display:flex;
+    justify-content: center}
+
+.contato{
+    width: 100%;
+    max-width:500px;}
+
+.form {
+    display: flex;
+    flex-direction:column 
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+}
+textarea{
+    height:150px;}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+
+

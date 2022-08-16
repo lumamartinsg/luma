@@ -1,0 +1,170 @@
+
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background: url("fundo-pg-inicial.png") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btnQ{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+
+.btnQ:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnC{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 255px;
+    transition: .2s ease;
+}
+
+.btnC:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnS{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 465px;
+    transition: .2s ease;
+
+}
+.btnS:hover{
+    background: rgb(172, 145, 172);
+}
+
+.btnF{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background:rgba(77, 196, 226, 0.8);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 680px;
+    transition: .2s ease;
+}
+
+.btnF:hover{
+    background: rgb(172, 145, 172);
+}
+
+
+
+img.logo{
+max-width: 200px;
+}
+
+.hero-content{
+    margin-top: -21px;
+    padding-left: 80px;
+}
+
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 33px;
+    line-height: 43px;
+    color:blanchedalmond;
+    margin: 20px 0 30px 0;
+}
+
+.precos-container{
+    display: flex;
+}
+
+.preco span{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color:white;
+}
+
+.preco{
+    width: 300px;
+    max-width: 100%;
+    color: rgba(192, 192, 192, 0.8);
+}
+
+.preco a {
+    padding: 16.5px 14px;
+    background: rgb(13, 132, 136);
+    display: block;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+}
+
+.preco a:hover {
+    background: rgb(135, 151, 222);
+
+}
+
+.preco + .preco{
+    margin-left: 32px;
+}
+
+.preco p{
+    margin: 16px 0;
+}
+
+.preco p:first-child{
+    margin: 0;
+}
